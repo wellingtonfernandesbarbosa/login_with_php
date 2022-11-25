@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+    background: #e4effb;
+    font-family: "Roboto", sans-serif;
+}
+
+.logo{
+    font-family: 'Audiowide', cursive;
+    text-align: center;
+    font-size: 4rem
+}
+
+.formulario {
+    display: flex;
+    width: 40vw;
+    flex-direction: column;
+    background-color: #a6ade2;
+    box-shadow: 2px 2px 2px rgba(16, 16, 16, 0.42);
+    border-radius: 20px;
+    margin: 0vw 27vw 15vw 27vw;
+    padding: 2vw;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    background-color: #a6ade2;
+    box-shadow: 2px 2px 2px rgba(16, 16, 16, 0.42);
+    border-radius: 20px;
+    margin: 8vw 12vw 0 12vw;
+    padding: 2vw;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.home p{
+    margin: 0 0 0 0;
+}
+
+.name {
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 1rem 0 0 0;
+}
+
+.welcome{
+    font-size: 1.5rem;
+    align-self: center;
+}
+
+@media screen and (max-width: 480px) {
+    .formulario{
+        width: 80vw;
+        padding: 5vw 5vw;
+        margin: 5vw 7vw 0 5vw;
+    }
+}
+
+.formulario p {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.formulario form {
+    text-align: center;
+}
+
+form label {
+    display: block;
+    font-size: 1.5rem;
+    text-align: left;
+    padding: 0 0 0 0.5rem;
+}
+
+form input {
+    width: 94.5%;
+    cursor: pointer;  
+    padding: 8px 5px;
+    font-size: 18px;
+    border: 1px solid #fff; 
+    margin-bottom: 10px;  
+    border-radius: 10px;
+}
+
+.botao {
+    align-self: center;
+    width: 40%;
+    cursor: pointer;
+    padding: 8px 5px;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 10px;  
+    text-shadow: 0 0.2px 0.2px #333;
+
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+ 
+    -webkit-border-radius: 5px;
+    border-radius: 10px;
+ 
+    transition: all 0.2s linear;
+}
+
+input {
+    border: none;
+    border-bottom: solid 1px blue;
+}
+
+@media screen and (max-width: 768px) {
+    .formulario{
+        width: 80%;
+        padding: 5vw 5vw;
+        margin: 5vw 5vw 0 5vw;
+    }
+
+    .name {
+        font-weight: bold;
+        text-align: center;
+        font-size: 1.6rem;
+        padding: 1rem 0 0 0;
+    }
+}
+
+@media (max-width: 425px)
+{
+    .logo{
+        margin: 1.5rem 0;
+    }
+    
+    form label {
+        display: block;
+        text-align: left;
+        padding: 0 0 0 0.5rem;
+    }
+
+    form input{
+        margin-bottom: 1rem;
+        margin: 0 0.5rem 1rem 0.5rem;
+    }
+
+    .formulario {
+        width: 80vw;
+        margin: 3vw;
+    }
+
+    .home {
+        margin: 0 3vw 7vw;
+        padding: 5vw;
+    }
+    
+}
